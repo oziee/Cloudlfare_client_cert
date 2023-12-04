@@ -57,6 +57,9 @@ In Cloudflare where we created the certificate click `Create mTLS Rule`.
 Create the rule for it looks something like this. You can add more rules if you like. Things like `Country != <your country>` this will weed out all the smapping bots etc from china etc from going any further. Make sure the rules are correct with `AND` and `County is NOT EQUAL` because this rule is to `BLOCK` so if you have Country EQUALS your country and you try to connect you will get blocked.     
 ![p8](https://github.com/oziee/Cloudlfare_client_cert/assets/1471841/a41f3a76-aaee-4f98-903a-f4f61e74e1da)
 
+Shown here, the rule mean is the client certificate is blank/nothing/missing the rule is BLOCK
+
+Click Deploy to use the rule
 
 
 
